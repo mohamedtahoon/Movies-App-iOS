@@ -101,7 +101,7 @@
                             <outlet property="delegate" destination="Ds3-B1-G83" id="WbQ-1y-Na9"/>
                         </connections>
                     </collectionView>
-                    <tabBarItem key="tabBarItem" title="Favourits" id="Cqm-iA-czc"/>
+                    <tabBarItem key="tabBarItem" title="Favourits" image="pencil" catalog="system" id="Cqm-iA-czc"/>
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JDG-uV-3l8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -150,7 +150,7 @@
                             <outlet property="delegate" destination="tlU-8w-9Kw" id="ayL-tt-CsQ"/>
                         </connections>
                     </collectionView>
-                    <tabBarItem key="tabBarItem" title="Home" id="9V9-8Y-S1O"/>
+                    <tabBarItem key="tabBarItem" title="Home" image="pause.circle" catalog="system" id="9V9-8Y-S1O"/>
                     <connections>
                         <outlet property="collectView" destination="MLg-c4-Ibb" id="i5L-4F-h6e"/>
                     </connections>
@@ -471,4 +471,8 @@
             <point key="canvasLocation" x="254" y="799"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="pause.circle" catalog="system" width="64" height="60"/>
+        <image name="pencil" catalog="system" width="64" height="56"/>
+    </resources>
 </document>

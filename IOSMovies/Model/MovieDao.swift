@@ -91,7 +91,7 @@ class MovieDao{
                 movie.releaseYear = (item.value(forKey: Constants.releaseDate) as! String?)!
                 movie.trailers = (item.value(forKey: Constants.trailers) as! [Trailers]?)!
                 movie.reviews = (item.value(forKey: Constants.reviews) as! [Reviews]?)!
-                print(movie.title)
+                print(movie.title!)
             }
             
         } catch let error as NSError {

@@ -61,7 +61,7 @@ class ReviewTableViewController: UITableViewController {
         cell.reviewContent.text = movie.reviews?[indexPath.row].content
        
         
-        print("fgdfg  "+(movie.reviews?[indexPath.row].content)! ?? 0 )
+        print("fgdfg  "+(movie.reviews?[indexPath.row].content)! )
         
         print("///////////////////////")
         

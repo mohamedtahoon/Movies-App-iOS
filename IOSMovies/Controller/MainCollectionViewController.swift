@@ -66,42 +66,6 @@ class MainCollectionViewController: UICollectionViewController ,UICollectionView
 
         collectView?.collectionViewLayout = layout
 
-        
-//        //drop down
-//        var check : String = "top_rated"
-//
-//        let items = ["Popular" , "Now Playing", "Top Rated" , "Upcoming"]
-//
-//        let titleView = TitleView(navigationController: navigationController!, title: "Menu", items: items)
-//        titleView?.action = { [weak self] index in
-//
-//            print("select \(index)")
-//
-//            switch index {
-//            case 0 :
-//                check="top_rated"
-//            case 1 :
-//                check="now_playing"
-//            case 2 :
-//                check="popular"
-//            case 3 :
-//                check="upcoming"
-//
-//            default:
-//                check="popular"
-//            }
-//
-//
-//
-//
-//
-//
-//        }
-
-
-
-
-        //navigationItem.titleView = titleView
 
        
         self.clearsSelectionOnViewWillAppear = false
@@ -124,7 +88,7 @@ class MainCollectionViewController: UICollectionViewController ,UICollectionView
                 print("default index ")
             }
         }
-        //        Config.List.DefaultCell.Text.color = UIColor.red
+        
         navigationItem.titleView = titleView
     }
     
